@@ -10,6 +10,8 @@ metadata:
   name: ingress-nginx-controller
   namespace: ingress-nginx
 spec:
+  externalIPs:
+  - 192.168.56.103
   externalTrafficPolicy: Local
   ipFamilies:
   - IPv4
